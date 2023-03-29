@@ -9,4 +9,7 @@ All this is combined in the DSO Shell 150 modules I use.
 ### Games that have been implemented so far: 
 - Tetris
 - Snake
-
+## Example
+<img src="https://github.com/XForgivenGitX/Game-Console/blob/master/pictures/3gKi9pon0uI.jpg" width="25%"/>
+<img src="https://github.com/XForgivenGitX/Game-Console/blob/master/pictures/OAbxks6Mp9Q.jpg" style="position: relative; max-width: 100%;left: 300px;top: -355px" width="25%"/>
+<img src="https://github.com/XForgivenGitX/Game-Console/blob/master/pictures/tkPjh83XvJE.jpg" width="25%"/>
