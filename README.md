@@ -10,9 +10,9 @@ All this is combined in the DSO Shell 150 modules I use.
 - Tetris
 - Snake
 ## Example
-<p class="snak">
+<p class="snake">
   <img src="https://github.com/XForgivenGitX/Game-Console/blob/master/pictures/menu.jpg" width="25%"/>
+  <img src="https://github.com/XForgivenGitX/Game-Console/blob/master/pictures/snake.jpg" width="25%" />
+  <img src="https://github.com/XForgivenGitX/Game-Console/blob/master/pictures/tetris.jpg" width="25%"/>
 </div>
-<img src="https://github.com/XForgivenGitX/Game-Console/blob/master/pictures/snake.jpg" width="25%" />
-<img src="https://github.com/XForgivenGitX/Game-Console/blob/master/pictures/tetris.jpg" width="25%"/>
 
