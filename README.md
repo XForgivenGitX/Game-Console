@@ -10,5 +10,5 @@ All this is combined in the DSO Shell 150 modules I use.
 - Tetris
 - Snake
 ## Example
-<img src="[3gKi9pon0uI.jpg](https://github.com/XForgivenGitX/Game-Console/blob/master/pictures/3gKi9pon0uI.jpg)" width="25%"/>
+<img src="https://github.com/XForgivenGitX/Game-Console/blob/master/pictures/3gKi9pon0uI.jpg" width="25%"/>
 
