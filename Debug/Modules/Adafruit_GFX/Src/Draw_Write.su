@@ -1,0 +1,11 @@
+../Modules/Adafruit_GFX/Src/Draw_Write.cpp:9:6:void Draw_Symbol(uint32_t, uint32_t, uint16_t, uint16_t, uint8_t)	32	static
+../Modules/Adafruit_GFX/Src/Draw_Write.cpp:32:6:void Draw_Symbol_2x(uint32_t, uint32_t, uint16_t, uint16_t, uint8_t)	40	static
+../Modules/Adafruit_GFX/Src/Draw_Write.cpp:58:6:void Draw_Text_String(uint32_t, uint32_t, uint16_t, uint16_t, char*)	40	static
+../Modules/Adafruit_GFX/Src/Draw_Write.cpp:71:6:void Draw_Text_String_2x(uint32_t, uint32_t, uint16_t, uint16_t, char*)	40	static
+../Modules/Adafruit_GFX/Src/Draw_Write.cpp:85:6:void Draw_Text_String_RU(uint32_t, uint32_t, uint16_t, uint16_t, char*)	40	static
+../Modules/Adafruit_GFX/Src/Draw_Write.cpp:108:6:void Draw_Text_String_2x_RU(uint32_t, uint32_t, uint16_t, uint16_t, char*)	40	static
+../Modules/Adafruit_GFX/Src/Draw_Write.cpp:133:6:void Draw_Byte_Hex(uint32_t, uint32_t, uint8_t)	40	static
+../Modules/Adafruit_GFX/Src/Draw_Write.cpp:147:6:void Draw_Byte_dec(uint32_t, uint32_t, uint8_t)	40	static
+../Modules/Adafruit_GFX/Src/Draw_Write.cpp:166:6:void Draw_Variable(uint32_t, uint32_t, uint32_t)	48	static
+../Modules/Adafruit_GFX/Src/Draw_Write.cpp:199:6:void Draw_Variable_Hundredths(uint32_t, uint32_t, uint32_t)	48	static
+../Modules/Adafruit_GFX/Src/Draw_Write.cpp:239:6:void Draw_Poligon(uint32_t, uint32_t, uint32_t, uint32_t, uint16_t)	32	static

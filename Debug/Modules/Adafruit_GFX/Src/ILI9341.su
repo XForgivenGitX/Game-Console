@@ -1,0 +1,21 @@
+../Modules/Adafruit_GFX/Src/ILI9341.cpp:31:10:uint16_t ili9341_begin()	8	static
+../Modules/Adafruit_GFX/Src/ILI9341.cpp:72:6:void ili9341_setLR()	8	static
+../Modules/Adafruit_GFX/Src/ILI9341.cpp:79:6:void ili9341_reset()	8	static
+../Modules/Adafruit_GFX/Src/ILI9341.cpp:95:6:void setAddrWindow(int, int, int, int)	32	static
+../Modules/Adafruit_GFX/Src/ILI9341.cpp:114:6:void flood(uint16_t, uint32_t)	24	static
+../Modules/Adafruit_GFX/Src/ILI9341.cpp:163:6:void drawFastHLine(int16_t, int16_t, int16_t, uint16_t)	32	static
+../Modules/Adafruit_GFX/Src/ILI9341.cpp:187:6:void drawFastVLine(int16_t, int16_t, int16_t, uint16_t)	32	static
+../Modules/Adafruit_GFX/Src/ILI9341.cpp:210:6:void fillRect(int16_t, int16_t, int16_t, int16_t, uint16_t)	32	static
+../Modules/Adafruit_GFX/Src/ILI9341.cpp:241:6:void fillScreen(uint16_t)	16	static
+../Modules/Adafruit_GFX/Src/ILI9341.cpp:248:6:void drawPixel(int16_t, int16_t, uint16_t)	16	static
+../Modules/Adafruit_GFX/Src/ILI9341.cpp:263:6:void pushColors(uint16_t*, uint8_t, bool)	24	static
+../Modules/Adafruit_GFX/Src/ILI9341.cpp:288:10:uint16_t color565(uint8_t, uint8_t, uint8_t)	16	static
+../Modules/Adafruit_GFX/Src/ILI9341.cpp:295:6:void setRotation(uint8_t)	24	static
+../Modules/Adafruit_GFX/Src/ILI9341.cpp:337:13:void writeCommand(uint8_t)	16	static
+../Modules/Adafruit_GFX/Src/ILI9341.cpp:347:9:uint8_t read8_()	16	static
+../Modules/Adafruit_GFX/Src/ILI9341.cpp:361:10:uint32_t readReg32(uint8_t)	24	static
+../Modules/Adafruit_GFX/Src/ILI9341.cpp:387:10:uint16_t readReg(uint8_t)	24	static
+../Modules/Adafruit_GFX/Src/ILI9341.cpp:411:6:void writeRegisterPair(uint8_t, uint8_t, uint16_t)	16	static
+../Modules/Adafruit_GFX/Src/ILI9341.cpp:418:6:void writeRegister8(uint8_t, uint8_t)	16	static
+../Modules/Adafruit_GFX/Src/ILI9341.cpp:427:6:void writeRegister16(uint16_t, uint16_t)	16	static
+../Modules/Adafruit_GFX/Src/ILI9341.cpp:437:6:void writeRegister32(uint8_t, uint32_t)	16	static
