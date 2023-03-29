@@ -10,6 +10,6 @@ All this is combined in the DSO Shell 150 modules I use.
 - Tetris
 - Snake
 ## Example
-<img src="https://github.com/XForgivenGitX/Game-Console/blob/master/pictures/3gKi9pon0uI.jpg" width="25%"/>
-![snake](/snake.jpeg)
-<img src="https://github.com/XForgivenGitX/Game-Console/blob/master/pictures/tkPjh83XvJE.jpg" width="25%"/>
+<img src="https://github.com/XForgivenGitX/Game-Console/blob/master/pictures/menu.jpg" width="25%"/>
+![snake]("https://github.com/XForgivenGitX/Game-Console/blob/master/pictures/snake.jpeg")
+<img src="https://github.com/XForgivenGitX/Game-Console/blob/master/pictures/tetris.jpg" width="25%"/>
