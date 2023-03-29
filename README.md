@@ -11,5 +11,6 @@ All this is combined in the DSO Shell 150 modules I use.
 - Snake
 ## Example
 <img src="https://github.com/XForgivenGitX/Game-Console/blob/master/pictures/menu.jpg" width="25%"/>
-![snake]("https://github.com/XForgivenGitX/Game-Console/blob/master/pictures/snake.jpeg")
+<div style="position: relative; max-width: 100%;left: 300px;top: -355px">
+  <img src="https://github.com/XForgivenGitX/Game-Console/blob/master/pictures/snake.jpg" width="100" /></div>
 <img src="https://github.com/XForgivenGitX/Game-Console/blob/master/pictures/tetris.jpg" width="25%"/>
