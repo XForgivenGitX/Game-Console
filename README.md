@@ -10,5 +10,5 @@ All this is combined in the DSO Shell 150 modules I use.
 - Tetris
 - Snake
 ## Example
-![](https://github.com/XForgivenGitX/Game-Console/blob/master/pictures/3gKi9pon0uI.jpg =250x)
+![](https://github.com/XForgivenGitX/Game-Console/blob/master/pictures/3gKi9pon0uI.jpg)
 
