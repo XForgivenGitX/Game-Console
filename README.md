@@ -11,5 +11,5 @@ All this is combined in the DSO Shell 150 modules I use.
 - Snake
 ## Example
 ![](https://github.com/XForgivenGitX/Game-Console/blob/master/pictures/3gKi9pon0uI.jpg)
-<img src="3gKi9pon0uI.jpg" alt="drawing" width="200"/>
+<img src="[3gKi9pon0uI.jpg](https://github.com/XForgivenGitX/Game-Console/blob/master/pictures/3gKi9pon0uI.jpg)" width="25%"/>
 
