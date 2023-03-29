@@ -4,7 +4,7 @@ The library counts down the time of a possible rattle and notifies about the sta
 ## Tools
 - microcontroller STM32F103
 - display ILI9341
-- AdafruitGFX library
+- AdafruitGFX library\
 All this is combined in the DSO Shell 150 modules I use.
 ### Games that have been implemented so far: 
 - Tetris
