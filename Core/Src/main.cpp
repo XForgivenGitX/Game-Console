@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include <MainThread.hpp>
+#include "MainThread.hpp"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
