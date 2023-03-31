@@ -41,7 +41,7 @@ volatile unsigned int Delay_us_Is_Running = false;// Признак того, ч
 void ISR_Delay_us_Timer (void)
 {
 	Delay_us_Timer_Off();// Выключение таймера
-	Delay_us_Is_Running = false;																				// Сброс признака выполнения задержки
+	Delay_us_Is_Running = false;// Сброс признака выполнения задержки
 }
 //////////////////////////////////////////////////////////////////////////
 
@@ -52,10 +52,10 @@ void ISR_Delay_us_Timer (void)
 //
 void delayUS(unsigned short int time_us)
 {
-	Delay_us_Is_Running = true;																						// Задержка началась
+	Delay_us_Is_Running = true;// Задержка началась
 	__HAL_TIM_SET_COUNTER(Delay_us_Timer_Handle, 0);// Сброс счётного регистра
 	__HAL_TIM_SET_AUTORELOAD(Delay_us_Timer_Handle, time_us);// Задержка определяется значением в регистре ARR
-	Delay_us_Timer_On();																									// Включение таймера
-	while(Delay_us_Is_Running);																						// Ожидание окончания счёта
+	Delay_us_Timer_On();// Включение таймера
+	while(Delay_us_Is_Running);// Ожидание окончания счёта
 }
 //////////////////////////////////////////////////////////////////////////
