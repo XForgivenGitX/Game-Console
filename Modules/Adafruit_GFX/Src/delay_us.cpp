@@ -10,8 +10,8 @@
 // В таймере должны быть разрешены прерывания по переполнению ARR. Значение в ARR определяет длительность задержки в мкс
 
 // Таймер
-extern TIM_HandleTypeDef htim1;															// Фактический таймер, предделитель которого даёт 1 мкс. (если тактовая 48 МГц, Prescaler = 47)
-TIM_HandleTypeDef * Delay_us_Timer_Handle = &htim1;					// Перенаправление указателя на структуру параметров
+extern TIM_HandleTypeDef htim1;	// Фактический таймер, предделитель которого даёт 1 мкс. (если тактовая 48 МГц, Prescaler = 47)
+TIM_HandleTypeDef * Delay_us_Timer_Handle = &htim1;// Перенаправление указателя на структуру параметров
 
 //////////////////////////////////////////////////////////////////////////
 
@@ -36,11 +36,11 @@ void Delay_us_Timer_Off (void)
 //////////////////////////////////////////////////////////////////////////
 // Обработчик прерывания таймера
 // 
-volatile unsigned int Delay_us_Is_Running = false;										// Признак того, что задержка выполняется
+volatile unsigned int Delay_us_Is_Running = false;// Признак того, что задержка выполняется
 //
 void ISR_Delay_us_Timer (void)
 {
-	Delay_us_Timer_Off();																								// Выключение таймера
+	Delay_us_Timer_Off();// Выключение таймера
 	Delay_us_Is_Running = false;																				// Сброс признака выполнения задержки
 }
 //////////////////////////////////////////////////////////////////////////
@@ -53,8 +53,8 @@ void ISR_Delay_us_Timer (void)
 void delayUS(unsigned short int time_us)
 {
 	Delay_us_Is_Running = true;																						// Задержка началась
-	__HAL_TIM_SET_COUNTER(Delay_us_Timer_Handle, 0);											// Сброс счётного регистра
-	__HAL_TIM_SET_AUTORELOAD(Delay_us_Timer_Handle, time_us);							// Задержка определяется значением в регистре ARR
+	__HAL_TIM_SET_COUNTER(Delay_us_Timer_Handle, 0);// Сброс счётного регистра
+	__HAL_TIM_SET_AUTORELOAD(Delay_us_Timer_Handle, time_us);// Задержка определяется значением в регистре ARR
 	Delay_us_Timer_On();																									// Включение таймера
 	while(Delay_us_Is_Running);																						// Ожидание окончания счёта
 }
