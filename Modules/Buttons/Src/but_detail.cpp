@@ -1,4 +1,4 @@
-#include <but_main.hpp>
+#include "but_main.hpp"
 using namespace but;
 
 static bool states[4]{1, 1, 1, 1};
