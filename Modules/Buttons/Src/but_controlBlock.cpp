@@ -1,4 +1,4 @@
-#include <but_main.hpp>
+#include "but_main.hpp"
 using namespace but;
 
 std::list<ButtonWrapper> ButtonControlBlock::myButtons;
