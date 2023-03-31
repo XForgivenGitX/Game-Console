@@ -1,4 +1,4 @@
-#include <TetrisTask.hpp>
+#include "TetrisTask.hpp"
 using namespace tetris;
 
 extern but::ButtonWrapper* but1;
