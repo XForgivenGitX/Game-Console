@@ -1,5 +1,5 @@
 # GameConsole
-## Dynamic button processing
+## Dynamic button handler
 The library counts down the time of a possible rattle and notifies about the status of the button in the LogicState enumeration. It is also possible to count the sequence of clicks / holds and read the finished series.
 ## Tools
 - microcontroller STM32F103
